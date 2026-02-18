@@ -2,7 +2,7 @@
 
 Versi public dari aplikasi FOBi (Flora & Fauna Observation of Biodiversity Indonesia) yang sudah di-refactor dengan clean architecture.
 
-## 📁 Struktur Direktori
+##  Struktur Direktori
 
 ```
 amaturalist-beta/
@@ -48,7 +48,7 @@ amaturalist-beta/
     └── api.php                         # Unified API routes
 ```
 
-## 🏗️ Arsitektur
+##  Arsitektur
 
 ### Clean Architecture
 
@@ -126,7 +126,7 @@ GET  /api/taksa/search                              # Search taxa
 GET  /api/taxa/{rank}/{id}                          # Taxa detail
 ```
 
-## 🚀 Setup
+##  Setup
 
 ### 1. Copy ke project utama
 
@@ -185,7 +185,7 @@ php artisan migrate
 php artisan db:seed --class=PublicDemoSeeder
 ```
 
-## 📝 Perbedaan dengan Versi Production
+##  Perbedaan dengan Versi Production
 
 | Aspek | Production | Public |
 |-------|------------|--------|
@@ -196,12 +196,12 @@ php artisan db:seed --class=PublicDemoSeeder
 | Multi-source | Burungnesia, Kupunesia, FOBi | FOBi only |
 | Spectrogram | Python script + S3 | Local storage only |
 
-## 🔒 Keamanan
+##  Keamanan
 
 - Tidak ada kredensial atau API keys
 - Tidak ada logic sensitif
 - Cocok untuk public repository
 
-## 📄 License
+##  License
 
 MIT License
