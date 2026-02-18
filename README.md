@@ -1,4 +1,4 @@
-# Amaturalist Beta - FOBi Public Version
+# Amaturalist Beta - FOBi-Amaturalist Public Version
 
 Versi public dari aplikasi FOBi (Flora & Fauna Observation of Biodiversity Indonesia) yang sudah di-refactor dengan clean architecture.
 
