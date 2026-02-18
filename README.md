@@ -193,7 +193,7 @@ php artisan db:seed --class=PublicDemoSeeder
 | Business Logic | Di controller | Di services |
 | Validation | Manual | Form Requests |
 | Response | Manual array | API Resources |
-| Multi-source | Burungnesia, Kupunesia, FOBi | FOBi only |
+| Multi-source | Burungnesia, Kupunesia, FOBi(amaturalist) | FOBi only |
 | Spectrogram | Python script + S3 | Local storage only |
 
 ##  Keamanan
